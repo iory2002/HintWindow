@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>HintWindowClass</class>
+ <widget class="QDialog" name="HintWindowClass" >
+  <property name="objectName" >
+   <string notr="true">HintWindowClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>HintWindow</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="HintWindow.qrc"/>
+ </resources>
+ <connections/>
+</UI>
