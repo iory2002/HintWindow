@@ -36,9 +36,15 @@
     <ClCompile Include="HintWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HintWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="HintWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="HintWnd.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

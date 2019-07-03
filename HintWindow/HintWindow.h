@@ -10,6 +10,9 @@ class HintWindow : public QDialog
 public:
 	HintWindow(QWidget *parent = Q_NULLPTR);
 
+private slots:
+	void onHint();
+
 private:
 	Ui::HintWindowClass ui;
 };
